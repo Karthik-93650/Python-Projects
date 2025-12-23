@@ -65,7 +65,7 @@ if gender==1:
 elif gender==2:
     Female(age)
 
-     #OR
+#Using conditions without functions;
 name=input("Enter your name please!").title()
 gender=int(input("Enter your gender:1.)Male,2.)Female"))
 age=int(input("Enter your age:"))
