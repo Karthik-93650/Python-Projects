@@ -4,7 +4,7 @@
 #16-20->per km 8rs
 #20-30->per km 10rs
 #>30->No ride
-'''n=int(input("Enter your distance to travel in km's:"))
+n=int(input("Enter your distance to travel in km's:"))
 rc=0
 if n in range(1,11):
     rc=n*5
@@ -19,10 +19,10 @@ elif n in range(21,31):
     rc=10*5+5*7+5*8+(n-20)*10
     print("Your Ride cost is",rc)
 else:
-    print("Sorry mate!No ride for you fella")'''
+    print("Sorry mate!No ride for you fella")
 
 #Using functions
-'''while 1:
+while 1:
     dist=int(input("Enter your distance to travel in km's:"))
     rc=0
     def bill(dist):
@@ -40,11 +40,11 @@ else:
             print("Your travel cost is",rc)
         else:
             print("Sorry! nO Ride fEllA")
-    bill(dist)'''
+    bill(dist)
 
 #Task:Railway ticket price using functions
 #name=input("Enter your name please!")
-'''gender=int(input("Enter your gender:1.)Male,2.)Female"))
+gender=int(input("Enter your gender:1.)Male,2.)Female"))
 age=int(input("Enter your age:"))
 ticket=1000
 def Male(age):
@@ -63,9 +63,10 @@ def Female(age):
 if gender==1:
     Male(age)
 elif gender==2:
-    Female(age)'''
+    Female(age)
 
-'''name=input("Enter your name please!").title()
+     #OR
+name=input("Enter your name please!").title()
 gender=int(input("Enter your gender:1.)Male,2.)Female"))
 age=int(input("Enter your age:"))
 ticket=1000
@@ -84,7 +85,7 @@ elif gender==2:
         c=(50/100)*ticket
         print(f"{name}'s Ticket price is {c}")
 else:
-    print("Sorry ticket is Not Avaialable")'''
+    print("Sorry ticket is Not Avaialable")
 
 #Back Account 
 account="c123"
