@@ -1,5 +1,5 @@
 #Draw a heart
-'''import turtle
+import turtle
 pen = turtle.Turtle()
 
 def curve():
@@ -18,10 +18,10 @@ def heart():
     pen.forward(112)
     pen.end_fill()
 heart()
-turtle.done()'''
+turtle.done()
 
 #Password Generator;
-'''import secrets
+import secrets
 import string
 
 def create_pwd(pw_length=12):
@@ -73,7 +73,7 @@ for i in range(TimeDuration):
     time.sleep(1)
 
 if __name__ ==  '__main__':
-    beep_alarm()'''
+    beep_alarm()
 
 
 
