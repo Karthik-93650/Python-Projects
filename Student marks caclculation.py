@@ -2,7 +2,7 @@
 ##return: A if marks > 90 ,B if marks > 75 .C if marks > 60 , F otherwise; PGStudent(marks) should return: A if marks > 85 ,B if
 ##marks > 70 ,C if marks > 50 ,F otherwise Input Format : First line: Type of student (UG or PG) and Second line: Marks (an integer)
 ##Output Format : Print the grade as A, B, C, or F
-'''from abc import ABC,abstractmethod
+from abc import ABC,abstractmethod
 
 class Student(ABC):
     @abstractmethod
@@ -41,13 +41,13 @@ elif stype == "PG":
     obj=PGStudent()
     print("Grade:",obj.calculate_grade(marks))
 else:
-    print("Invalid option")'''
+    print("Invalid option")
 
 ##Write a python program to Create an abstract class UserAuth with a method login(). Subclasses Admin and Guest should
 ##implement the login() method and return:"Admin login successful" for Admin and "Guest login successful" for Guest .Do not use
 ##abc or any external module. Input Format : A single line containing either "Admin" or "Guest" Output Format : Print the result of
 ##the login() method. otherwise to prints "invalid user login"
-'''class UserAuth():
+class UserAuth():
     def login(self,User):
         # This acts like an abstract method (manual abstraction)
         raise NotImplementedError("Subclass must implement login()")
@@ -67,7 +67,7 @@ elif User == "Guest":
     obj=Guest()
     print("User:",obj.login(User))
 else:
-    print("Invalid user login")'''
+    print("Invalid user login")
 
 
 
